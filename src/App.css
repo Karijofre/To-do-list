@@ -132,9 +132,18 @@
     cursor: pointer;
     pointer-events: none;
   }
-  /* Transition */
-  /*
-  .select:hover::after {
-    transform: scale(1.5);
+  @media screen and (max-width: 768px){
+    form{
+      display: flex;
+      flex-direction: column;
+    }
+    .todo-input{
+      width: 85%;
+    }
+    .todo-button{
+      margin-top: 10px;
+    }
+    h1{
+      font-size: 48px;
+    }
   }
-  */
